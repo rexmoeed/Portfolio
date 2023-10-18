@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heaven Paints</title>
+  <link rel="stylesheet" href="productstyle.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="announcmentbar">
+    <div id="time">
+      <i class="fas fa-clock"></i>
+      <span>Mon to Sun 9:00am - 6:00pm</span>
+      <span id="smalltext">(Closed on Fridays)</span>
+    </div>
+
+    <div id="phone">
+      <i class="fas fa-phone-alt"></i>
+      <span>055-3200288</span>
+    </div>
+
+    <div id="address">
+      <i class="fas fa-map-marker-alt"></i>
+      <span>Sialkot Bypass Gujranwala</span>
+    </div>
+  </div>
+
+  <div class="socialicons">
+    <div class="socialicon_fb">
+      <a href="https://www.facebook.com/Heaven-Paints-106270421863617/"> <i class="fab fa-facebook"></i> </a>
+    </div>
+
+    <div class="socialicon_instagram">
+      <a href=""> <i class="fab fa-instagram-square"></i> </a>
+    </div>
+
+    <div class="socialicon_twitter">
+      <a href=""> <i class="fab fa-twitter-square"></i> </a>
+    </div>
+  </div>
+
+
+  <div class="header">
+    <ul>
+      <li><a href="Index.html">Home</a></li>
+      <li><a href="product.html">Product</a></li>
+      <li><a href="AboutUs.html">About</a></li>
+      <li><a href="ContactUs.html">Contact Us</a></li>
+    </ul>
+    <div class="logo">
+      <img src="Logo/Havens Paint Logos White.png" width="230px">
+    </div>
+
+    <div class="settings_btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </div>
+
+  <h1 class="title">Our Products</h1>
+  <!------- Product Container------>
+  <div class="row">
+    <ul id="filter-btns">
+      <li class="active" data-target="all">All</li>
+      <li data-target="Emulsion">EMULSION PAINTS</li>
+      <li data-target="Destemper">DISTEMPER</li>
+      <li data-target="Weather">WEATHER SHIELD</li>
+    </ul>
+  </div>
+
+  <div class="container" id="switch">
+    <div class="product" data-id="Emulsion">
+      <div class="product-card">
+        <h2 class="name">Primer, Silver <br />Reflection, Satin</h2>
+        <span class="price">Rs 1200</span>
+        <a class="popup-btn">Quick View</a>
+        <img src="img/gallon1.png" class="product-img" alt="" height="200px">
+      </div>
+      <div class="popup-view">
+        <div class="popup-card">
+          <a><i class="fas fa-times close-btn"></i></a>
+          <div class="product-img">
+            <img src="img/gallon1.png" alt="">
+          </div>
+          <div class="info">
+            <h2>Heaven Paints<br><span>Primer, Silver Reflection, Satin</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.</p>
+            <span class="price">Rs 1200</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="product" data-id="Emulsion">
+      <div class="product-card">
+        <h2 class="name">Primer, Rich Navy, <br /> Semi-Gloss</h2>
+        <span class="price">Rs 1200</span>
+        <a class="popup-btn">Quick View</a>
+        <img src="img/gallon2.png" class="product-img" alt="" height="200px">
+      </div>
+      <div class="popup-view">
+        <div class="popup-card">
+          <a><i class="fas fa-times close-btn"></i></a>
+          <div class="product-img">
+            <img src="img/gallon2.png" alt="">
+          </div>
+          <div class="info">
+            <h2>Heaven Paints<br><span>Primer, Rich Navy, Semi-Gloss</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.</p>
+            <span class="price">Rs 1200</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="product" data-id="Emulsion">
+      <div class="product-card">
+        <h2 class="name">Primer, Fossil Grey, Flat</h2>
+        <span class="price">Rs 1200</span>
+        <a class="popup-btn">Quick View</a>
+        <img src="img/gallon3.png" class="product-img" alt="" height="200px">
+      </div>
+      <div class="popup-view">
+        <div class="popup-card">
+          <a><i class="fas fa-times close-btn"></i></a>
+          <div class="product-img">
+            <img src="img/gallon3.png" alt="">
+          </div>
+          <div class="info">
+            <h2>Heaven Paints<br><span>Primer, Fossil <br />Grey, Flat</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.</p>
+            <span class="price">Rs 1200</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="product" data-id="Emulsion">
+      <div class="product-card">
+        <h2 class="name">Primer, Warm <br />Caramel, Flat</h2>
+        <span class="price">Rs 1200</span>
+        <a class="popup-btn">Quick View</a>
+        <img src="img/gallon4.png" class="product-img" alt="" height="200px">
+      </div>
+      <div class="popup-view">
+        <div class="popup-card">
+          <a><i class="fas fa-times close-btn"></i></a>
+          <div class="product-img">
+            <img src="img/gallon4.png" alt="">
+          </div>
+          <div class="info">
+            <h2>Heaven Paints<br><span>Primer, Warm Caramel, Flat</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.</p>
+            <span class="price">Rs 1200</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="product" data-id="Destemper">
+      <div class="product-card">
+        <h2 class="name">Home French Gray Interior Paint</h2>
+        <span class="price">Rs 900</span>
+        <a class="popup-btn">Quick View</a>
+        <img src="img/paint-1.png" class="product-img" alt="" height="200px">
+      </div>
+      <div class="popup-view">
+        <div class="popup-card">
+          <a><i class="fas fa-times close-btn"></i></a>
+          <div class="product-img">
+            <img src="img/paint-1.png" alt="">
+          </div>
+          <div class="info">
+            <h2>Heaven Paints<br><span>Home French Gray Interior Paint</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.</p>
+            <span class="price">Rs 1200</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="product" data-id="Destemper">
+      <div class="product-card">
+        <h2 class="name">Drew Barrymore Flower</h2>
+        <span class="price">Rs 900</span>
+        <a class="popup-btn">Quick View</a>
+        <img src="img/paint-2.png" class="product-img" alt="" height="200px">
+      </div>
+      <div class="popup-view">
+        <div class="popup-card">
+          <a><i class="fas fa-times close-btn"></i></a>
+          <div class="product-img">
+            <img src="img/paint-2.png" alt="">
+          </div>
+          <div class="info">
+            <h2>Heaven Paints<br><span>Drew Barrymore Flower</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.</p>
+            <span class="price">Rs 900</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="product" data-id="Destemper">
+      <div class="product-card">
+        <h2 class="name">Interior Paint and Primer, Pebble Grey</h2>
+        <span class="price">Rs 900</span>
+        <a class="popup-btn">Quick View</a>
+        <img src="img/paint-3.png" class="product-img" alt="" height="200px">
+      </div>
+      <div class="popup-view">
+        <div class="popup-card">
+          <a><i class="fas fa-times close-btn"></i></a>
+          <div class="product-img">
+            <img src="img/paint-3.png" alt="">
+          </div>
+          <div class="info">
+            <h2>Heaven Paints<br><span>Interior Paint and Primer, Pebble Grey</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.</p>
+            <span class="price">Rs 900</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="product" data-id="Destemper">
+      <div class="product-card">
+        <h2 class="name">Glidden HEP Exterior, Dark Grey</h2>
+        <span class="price">Rs 900</span>
+        <a class="popup-btn">Quick View</a>
+        <img src="img/paint-4.png" class="product-img" alt="" height="200px">
+      </div>
+      <div class="popup-view">
+        <div class="popup-card">
+          <a><i class="fas fa-times close-btn"></i></a>
+          <div class="product-img">
+            <img src="img/paint-4.png" alt="">
+          </div>
+          <div class="info">
+            <h2>Heaven Paints<br><span>Glidden HEP Exterior, Dark Grey</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.</p>
+            <span class="price">Rs 900</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--
+     <div class="container">
+     
+    </div>
+-->
+  <div class="footer_container">
+    <div class="col">
+      <img src="Logo/Havens Paint Logos White.png" width="200px" class="footer_logo">
+      <p id="footer_para">Lorem ipsum dolor sit amet consectetur adipisicing
+        non itaque in vero Tempora
+        eaque eius repellendus voluptatum
+        nobis voluptate totam.<br />
+        Lorem ipsum dolor sit amet consectetur adipisicing
+        non itaque in vero
+      </p>
+    </div>
+
+    <div class="col">
+      <h5 class="footer_heading_office">Office</h5>
+      <p id="footer_info">Sialkot Bypass Gujranwala</p>
+      <p id="footer_info" style="text-decoration: underline;">heavenpaintsgrw@gmail.com</p>
+      <p id="footer_info" style="font-weight: bold;">055-3200288</p>
+    </div>
+
+    <div class="col">
+      <h5 class="footer_heading_links">Links</h5>
+      <p id="links_info">Home</p>
+      <p id="links_info">Products</p>
+      <p id="links_info">About</p>
+      <p id="links_info">Contact Us</p>
+    </div>
+
+    <div class="col">
+      <h5 class="footer_heading">Newsletter</h5>
+      <form action="" type="POST" class="newsletter_form">
+        <i class="fas fa-envelope"></i> <input type="email" id="email" name="emails" placeholder="Enter Email id">
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <hr class="rightreserved">
+    <p class="copyright_txt">Heaven Paints <i class="far fa-copyright"></i> 2022 - All Rights Reserverd</p>
+  </div>
+
+
+  <script src="script.js"></script>
+  <script charset="utf-8" type="text/javascript">
+    var popupViews = document.querySelectorAll('.popup-view');
+    var popupBtns = document.querySelectorAll('.popup-btn');
+    var closeBtns = document.querySelectorAll('.close-btn');
+
+    //javascript for quick view button
+    var popup = function (popupClick) {
+      popupViews[popupClick].classList.add('active');
+    }
+
+    popupBtns.forEach((popupBtn, i) => {
+      popupBtn.addEventListener("click", () => {
+        popup(i);
+      });
+    });
+
+    //javascript for close button
+    closeBtns.forEach((closeBtn) => {
+      closeBtn.addEventListener("click", () => {
+        popupViews.forEach((popupView) => {
+          popupView.classList.remove('active');
+        });
+      });
+    });
+  </script>
+
+
+</body>
+
+</html>
